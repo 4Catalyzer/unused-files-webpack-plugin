@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/4Catalyzer/unused-files-webpack-plugin/compare/v3.4.0...v4.0.0) (2019-08-30)
+
+
+### Features
+
+* updated webpack APIs ([fc40d34](https://github.com/4Catalyzer/unused-files-webpack-plugin/commit/fc40d34))
+
+
+### BREAKING CHANGES
+
+* remove support for old node
+
+
+
 <a name="3.4.0"></a>
 # [3.4.0](https://github.com/tomchentw/unused-files-webpack-plugin/compare/v3.3.0...v3.4.0) (2018-03-14)
 

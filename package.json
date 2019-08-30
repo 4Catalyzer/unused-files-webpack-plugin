@@ -1,8 +1,7 @@
 {
   "name": "@4c/unused-files-webpack-plugin",
-  "version": "3.4.0",
-  "description":
-    "Glob all files that are not compiled by webpack under webpack's context",
+  "version": "4.0.0",
+  "description": "Glob all files that are not compiled by webpack under webpack's context",
   "license": "MIT",
   "author": {
     "name": "tomchentw",
@@ -18,7 +17,10 @@
   },
   "homepage": "https://github.com/4Catalyzer/unused-files-webpack-plugin/",
   "main": "index.js",
-  "files": ["index.js", "CHANGELOG.md"],
+  "files": [
+    "index.js",
+    "CHANGELOG.md"
+  ],
   "keywords": [
     "unused",
     "redundancy",
@@ -29,11 +31,13 @@
   ],
   "scripts": {
     "test": "jest",
-    "release":
-      "standard-version -m 'chore(release): %s \n\n* CHANGELOG: https://github.com/4Catalyzer/unused-files-webpack-plugin/blob/v%s/CHANGELOG.md'"
+    "release": "standard-version -m 'chore(release): %s \n\n* CHANGELOG: https://github.com/4Catalyzer/unused-files-webpack-plugin/blob/v%s/CHANGELOG.md'"
   },
   "jest": {
-    "testPathIgnorePatterns": ["node_modules", "fixtures"]
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "fixtures"
+    ]
   },
   "publishConfig": {
     "access": "public"
