@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnusedFilesWebpackPlugin module options.patterns should work as expected patterns 1`] = `
+"
+UnusedFilesWebpackPlugin found some unused files:
+unused.js"
+`;
